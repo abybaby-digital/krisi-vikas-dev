@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">558499790661-2pjt673rr2afesgr17c9v14oek9tt5mp.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">558499790661</string>
+    <string name="google_api_key" translatable="false">AIzaSyDC8QnWLa-Mb8Bhc_FFqVJj4EHM5h7I5ao</string>
+    <string name="google_app_id" translatable="false">1:558499790661:android:d808b83d223d65f95cc82c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDC8QnWLa-Mb8Bhc_FFqVJj4EHM5h7I5ao</string>
+    <string name="google_storage_bucket" translatable="false">krishi-vikas-c40a1.appspot.com</string>
+    <string name="project_id" translatable="false">krishi-vikas-c40a1</string>
+</resources>
