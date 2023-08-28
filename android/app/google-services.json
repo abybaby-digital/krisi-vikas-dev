@@ -1,0 +1,366 @@
+{
+  "project_info": {
+    "project_number": "558499790661",
+    "project_id": "krishi-vikas-c40a1",
+    "storage_bucket": "krishi-vikas-c40a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558499790661:android:11248141174961c75cc82c",
+        "android_client_info": {
+          "package_name": "com.android.krishivikas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558499790661-3lo8rs0njqr6je0sfm1qkt567rbbsh17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.krishivikas",
+            "certificate_hash": "8984baed14ee15db408e1bd6e6934308c752c8bb"
+          }
+        },
+        {
+          "client_id": "558499790661-5unb0qfh9si6l5ulod49r87v6nrkt5v6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.krishivikas",
+            "certificate_hash": "18591558b47b05b915f734d38b0d0691ffe86712"
+          }
+        },
+        {
+          "client_id": "558499790661-apfpgrk06s789ihkcv8v1mjp4pu9b3lq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.krishivikas",
+            "certificate_hash": "3bfe59a88a996cd3ef6a630c45c8cd89ec1d4908"
+          }
+        },
+        {
+          "client_id": "558499790661-chfihu2t4j8tvta7hj199du81fetn5do.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.krishivikas",
+            "certificate_hash": "dc88ba4810038ded18dcd441fdf6e51178edc725"
+          }
+        },
+        {
+          "client_id": "558499790661-fb5d7mu84j9lpeobdl96lohcsv6coj09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.krishivikas",
+            "certificate_hash": "ed10774d14e62e093b4f756e77bf05799d860dbb"
+          }
+        },
+        {
+          "client_id": "558499790661-fmbg4rktdoihbk3gjvuiar978s256m09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.krishivikas",
+            "certificate_hash": "a786a239d3268cf1419597efedb13959cd2a7c25"
+          }
+        },
+        {
+          "client_id": "558499790661-pkc6c2g7pi4bh3pq5ghfpohco6gjlkge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.krishivikas",
+            "certificate_hash": "54bcdef5f8934e2687130ec95c0b56bd901acc5f"
+          }
+        },
+        {
+          "client_id": "558499790661-2pjt673rr2afesgr17c9v14oek9tt5mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC8QnWLa-Mb8Bhc_FFqVJj4EHM5h7I5ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558499790661-2pjt673rr2afesgr17c9v14oek9tt5mp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "558499790661-d5kilffb074d2hko91prc5quqa69m02v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.agri.krishivika"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558499790661:android:1d02803af42a3ec05cc82c",
+        "android_client_info": {
+          "package_name": "com.example.krishivikas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558499790661-0dr4sfajpr55losjgnbrtp6ubndgv7jt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishivikas",
+            "certificate_hash": "dc88ba4810038ded18dcd441fdf6e51178edc725"
+          }
+        },
+        {
+          "client_id": "558499790661-0gb0nvl18ers5bmvvstalbhj07dlnpps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishivikas",
+            "certificate_hash": "002466e9b39f9cdadfe2647e6d106a1d83b75f3a"
+          }
+        },
+        {
+          "client_id": "558499790661-0p2f5cfrkllfgm21n2tkj7855jtqjeg7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishivikas",
+            "certificate_hash": "15baf4f61daad197107d089feff6b96388c5767c"
+          }
+        },
+        {
+          "client_id": "558499790661-48ktl6foo7sicg816lfgel3l4k3e3oje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishivikas",
+            "certificate_hash": "613b80c626ef15bb1542911a299933d317bd3cce"
+          }
+        },
+        {
+          "client_id": "558499790661-4ch9ueq02d3frehnjedu3eh91mfge3po.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishivikas",
+            "certificate_hash": "9d472299c25e86066994762bb36471585b705fb1"
+          }
+        },
+        {
+          "client_id": "558499790661-4eqos8uu39geulhjj36ffkav3a2j8ajr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishivikas",
+            "certificate_hash": "95be9542753d9534362179323f000efdd751534e"
+          }
+        },
+        {
+          "client_id": "558499790661-a92gs54b0hm4od823crn657rrp6dq1v7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishivikas",
+            "certificate_hash": "fbf1a98696d57fc057d86d9e960124f6b63ea6c1"
+          }
+        },
+        {
+          "client_id": "558499790661-bngqf68s5nv9t5t3keavnvsecpe89q3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishivikas",
+            "certificate_hash": "29e1456d30613675b85c7429b2aa7cf229997dec"
+          }
+        },
+        {
+          "client_id": "558499790661-c3dfo2k7eepd1jqq4lsutglsntquobtj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishivikas",
+            "certificate_hash": "a538a5443dd8f8503727b808e3b8f2d1efa1ff16"
+          }
+        },
+        {
+          "client_id": "558499790661-ii320lptdh18ngfp0f2pmap00h1po0cs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishivikas",
+            "certificate_hash": "8a454f63903a8ca0150e10d5ef76f4e5af46edd5"
+          }
+        },
+        {
+          "client_id": "558499790661-siu4na3oe1dqj7gbcms9j07dqfi6nsak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishivikas",
+            "certificate_hash": "cc26d19ec2cacdef12dd717011c4cf87e26d77e1"
+          }
+        },
+        {
+          "client_id": "558499790661-2pjt673rr2afesgr17c9v14oek9tt5mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC8QnWLa-Mb8Bhc_FFqVJj4EHM5h7I5ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558499790661-2pjt673rr2afesgr17c9v14oek9tt5mp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "558499790661-d5kilffb074d2hko91prc5quqa69m02v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.agri.krishivika"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558499790661:android:d808b83d223d65f95cc82c",
+        "android_client_info": {
+          "package_name": "com.krishivikas.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558499790661-4gb0cbdopam7q41h8fqtrg8apt6m4q1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "c2ddda04b929e08a86538bd09a59739dc9357fca"
+          }
+        },
+        {
+          "client_id": "558499790661-527eb7rp0rk9jtp4gpoq7r7iarifrkaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "f5fb27623e51004fb3d4c7d9366f89c9f3bcdcd6"
+          }
+        },
+        {
+          "client_id": "558499790661-631nq7776ncl31b09j8aoo5lrnhdlbbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "6dbe1e1fe53623267dbc71862ce1149c146511b2"
+          }
+        },
+        {
+          "client_id": "558499790661-69fh6eho2r3cnqoj0bvg32425vkqp2oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "6a2b6ed0fa192d73a904d824e0db397fc5acc900"
+          }
+        },
+        {
+          "client_id": "558499790661-6ku1ue5r8rev59m8lu3573nra3mrq826.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "a786a239d3268cf1419597efedb13959cd2a7c25"
+          }
+        },
+        {
+          "client_id": "558499790661-9mj81s0r99digq4gql4pfsdle1pot5sl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "18591558b47b05b915f734d38b0d0691ffe86712"
+          }
+        },
+        {
+          "client_id": "558499790661-dk1s0dqif76r2mjhefqs90098i8gdqdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "f1a9c41e9a44e6578f7f82bbadbcc0c382d8baa8"
+          }
+        },
+        {
+          "client_id": "558499790661-k45nrrheja98jmh6d2m1t8cscse8u8s8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "8984baed14ee15db408e1bd6e6934308c752c8bb"
+          }
+        },
+        {
+          "client_id": "558499790661-lgooum43dsc4l3n9eehf6n6gdvmnr7un.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "3bfe59a88a996cd3ef6a630c45c8cd89ec1d4908"
+          }
+        },
+        {
+          "client_id": "558499790661-nsbp8ve9h37g05ghkdgjjbrjakvqf9ji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "78387221e71d144b9b05fb2068a3457e701de667"
+          }
+        },
+        {
+          "client_id": "558499790661-s3mbo8collhs0mpidquknf5f734l3f9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "dc88ba4810038ded18dcd441fdf6e51178edc725"
+          }
+        },
+        {
+          "client_id": "558499790661-sl6cddh7s5utt65ev73n3fuggkptsc3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "8ca98a514cec8ac9dbfe35c9bf7716a478abe725"
+          }
+        },
+        {
+          "client_id": "558499790661-sta09dpsqbvhn18vh2b2sbhtc29uki1v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krishivikas.android",
+            "certificate_hash": "eb5f7c30fab53ead58d71b7d082db3a099908ddc"
+          }
+        },
+        {
+          "client_id": "558499790661-2pjt673rr2afesgr17c9v14oek9tt5mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC8QnWLa-Mb8Bhc_FFqVJj4EHM5h7I5ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558499790661-2pjt673rr2afesgr17c9v14oek9tt5mp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "558499790661-d5kilffb074d2hko91prc5quqa69m02v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.agri.krishivika"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
