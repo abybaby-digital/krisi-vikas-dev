@@ -27,7 +27,7 @@ void main() async {
   preferences = await SharedPreferences.getInstance();
   await Firebase.initializeApp();
 
-  FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
+  // FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
   FirebaseMessaging.onMessage.listen((message) async {
     await AwesomeNotifications().createNotification(
       content: NotificationContent(
@@ -38,6 +38,7 @@ void main() async {
       ),
     );
   });
+
   FirebaseMessaging.instance.getToken().then((value) {
     print('FCM token : ${value}');
   });
@@ -90,28 +91,28 @@ void main() async {
 }
 
 // for background app notification
-Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
-  print("Data from Notification ${message.data}");
-  await AwesomeNotifications().createNotification(
-    content: NotificationContent(
-      id: 0,
-      channelKey: 'notification',
-      title: message.notification!.title,
-      body: message.notification!.body,
-    ),
-  );
+// Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
+//   print("Data from Notification ${message.data}");
+//   await AwesomeNotifications().createNotification(
+//     content: NotificationContent(
+//       id: 0,
+//       channelKey: 'notification',
+//       title: message.notification!.title,
+//       body: message.notification!.body,
+//     ),
+//   );
 
-  // await AwesomeNotifications().createNotificationFromJsonData(
-  //   message.data,
-  // );
-}
+// await AwesomeNotifications().createNotificationFromJsonData(
+//   message.data,
+// );
+// }
 
 class MyApp extends StatefulWidget {
   const MyApp({
     Key? key,
   }) : super(
-    key: key,
-  );
+          key: key,
+        );
 
   @override
   State<MyApp> createState() => _MyAppState();
@@ -138,7 +139,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   GlobalKey<NavigatorState> navigatorKey =
-  GlobalKey(debugLabel: "Main Navigator");
+      GlobalKey(debugLabel: "Main Navigator");
 
   ///Get FCM Token
   getDeviceTokenId() async {
@@ -158,7 +159,7 @@ class _MyAppState extends State<MyApp> {
     );
 
     fcm.onTokenRefresh.listen(
-          (newToken) {
+      (newToken) {
         // Save newToken
         _updateTokenController.getTokenUpdate(
           newToken,
@@ -175,13 +176,19 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
+    FirebaseMessaging.onMessageOpenedApp.listen((event) {
+      print("hello");
+      navigatorKey.currentState!.push(MaterialPageRoute(
+        builder: (context) => NotificationsPage(),
+      ));
+    });
     AwesomeNotifications().setListeners(
         onActionReceivedMethod: (reciver) async {
-          navigatorKey.currentState!.push(MaterialPageRoute(
-            builder: (context) => NotificationsPage(),
-          ));
-          print('hello');
-        });
+      navigatorKey.currentState!.push(MaterialPageRoute(
+        builder: (context) => NotificationsPage(),
+      ));
+      print('hello');
+    });
 
     ///Screen potrait remove.
     SystemChrome.setPreferredOrientations([
@@ -197,8 +204,8 @@ class _MyAppState extends State<MyApp> {
       locale: SharedPreferencesFunctions().getLanguage() == "Bengali"
           ? Locale('bd', 'BD')
           : SharedPreferencesFunctions().getLanguage() == "Hindi"
-          ? Locale('hi', 'IN')
-          : Locale('en', 'US'),
+              ? Locale('hi', 'IN')
+              : Locale('en', 'US'),
       home: FutureBuilder(
         future: AuthMethods().getCurrentUser(),
         builder: (context, AsyncSnapshot snapshot) {
